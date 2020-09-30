@@ -1,5 +1,5 @@
-.navbar{
-    background-color: black!important;
+.navbar {
+    background-color: black !important;
     align-content: center !important;
     display: flex !important;
     flex-wrap: wrap !important;
@@ -10,20 +10,21 @@
 }
 
 
-.nav-link{
+.nav-link {
     color: white !important;
     font-size: 20px;
     display: flex !important;
     flex-wrap: wrap !important;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     width: 30% !important;
     height: 30% !important;
     display: flex !important;
     flex-wrap: wrap !important;
 }
-.carousel-inner img{
+
+.carousel-inner img {
     position: center !important;
     align-content: center !important;
     align-items: center !important;
@@ -34,7 +35,7 @@
 @font-face {
     font-family: myFont;
     src: url(/fonts/Shorelines\ Script\ Bold.otf);
-  }
+}
 
 
 /* .card1{
@@ -46,16 +47,20 @@
     display: flex !important;
 } */
 
-.fa-star, .fa-star-half-o,.fa-user-circle{
+.fa-star,
+.fa-star-half-o,
+.fa-user-circle {
     font-size: 50px !important;
     flex-wrap: wrap;
     display: flex !important;
     font-weight: bold;
     align-content: center !important;
-    
+
 }
 
-.fa-facebook-official,.fa-whatsapp, .fa-instagram{
+.fa-facebook-official,
+.fa-whatsapp,
+.fa-instagram {
     font-size: 30px !important;
     flex-wrap: wrap;
     display: flex !important;
@@ -63,56 +68,61 @@
     align-content: center !important;
 }
 
-.card1,.card2,.card3{
+.card1,
+.card2,
+.card3 {
     color: black !important;
     display: inline-block;
     margin-top: 40px;
     margin-left: 50px !important;
 }
 
-.mainCard,.mainCard>.card{
+.mainCard,
+.mainCard>.card {
     size: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     /* background-image: url(./images/76374.png); */
-    background-color:rgb(169,169,169)!important;
+    background-color: rgb(169, 169, 169) !important;
 }
 
 
-.mainCard>.footer{
+.mainCard>.footer {
     font-size: 70px !important;
     display: flex !important;
     flex-wrap: wrap !important;
 
 }
 
-.footer{
+.footer {
     font-size: medium;
     font-style: myFont;
     display: flex;
     color: black;
 }
-.map-container{
-    overflow:hidden;
-    padding-bottom:40%;
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 40%;
     margin-left: 20%;
     margin-top: 10%;
-    position:relative;
-    height:100%;
+    position: relative;
+    height: 100%;
     width: 100%;
     size: 60% !important;
     flex-wrap: wrap !important;
     display: flex !important;
-    
+
 }
-.map-container iframe{
-    left:0;
-    top:0;
-    height:130%;
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 130%;
     width: 80%;
-    position:relative;   
+    position: relative;
     display: flex !important;
     flex-wrap: wrap !important;
 }
@@ -120,39 +130,39 @@
 
 
 
-.card{
+.card {
     display: flex;
     flex-wrap: wrap;
     /* background-image: url(/images/76374.png); */
-    background-color:rgb(169,169,169)!important;
+    background-color: rgb(169, 169, 169) !important;
 }
 
-.mainCard>h3{
+.mainCard>h3 {
     font-family: myFont !important;
     color: cornsilk;
     text-align: center !important;
 }
 
 
-#card23{
+#card23 {
     width: 30% !important;
     height: 30% !important;
     display: flex !important;
     flex-wrap: wrap !important;
-    size: 40px !important;            
+    size: 40px !important;
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
     border-color: grey;
     background-color: grey;
 }
 
-.btn-outline-primary:hover{
+.btn-outline-primary:hover {
     color: grey !important;
     border-color: grey !important;
 }
 
 
-.aboutus{
+.aboutus {
     text-align: center;
 }
